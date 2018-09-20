@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F52AD7B2153AF5500A45E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52AD7A2153AF5500A45E4F /* AppDelegate.m */; };
+		6F52AD7E2153AF5500A45E4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52AD7D2153AF5500A45E4F /* ViewController.m */; };
+		6F52AD812153AF5500A45E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F52AD7F2153AF5500A45E4F /* Main.storyboard */; };
+		6F52AD832153AF5800A45E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F52AD822153AF5800A45E4F /* Assets.xcassets */; };
+		6F52AD862153AF5800A45E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F52AD842153AF5800A45E4F /* LaunchScreen.storyboard */; };
+		6F52AD892153AF5800A45E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52AD882153AF5800A45E4F /* main.m */; };
+		6F52AD932153AF5800A45E4F /* TYProgressHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52AD922153AF5800A45E4F /* TYProgressHUDTests.m */; };
+		6F52AD9E2153AF5800A45E4F /* TYProgressHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52AD9D2153AF5800A45E4F /* TYProgressHUDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F52AD8F2153AF5800A45E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F52AD6E2153AF5500A45E4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F52AD752153AF5500A45E4F;
+			remoteInfo = TYProgressHUD;
+		};
+		6F52AD9A2153AF5800A45E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F52AD6E2153AF5500A45E4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F52AD752153AF5500A45E4F;
+			remoteInfo = TYProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F52AD762153AF5500A45E4F /* TYProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F52AD792153AF5500A45E4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F52AD7A2153AF5500A45E4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F52AD7C2153AF5500A45E4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F52AD7D2153AF5500A45E4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F52AD802153AF5500A45E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F52AD822153AF5800A45E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F52AD852153AF5800A45E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F52AD872153AF5800A45E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F52AD882153AF5800A45E4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F52AD8E2153AF5800A45E4F /* TYProgressHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYProgressHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F52AD922153AF5800A45E4F /* TYProgressHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYProgressHUDTests.m; sourceTree = "<group>"; };
+		6F52AD942153AF5800A45E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F52AD992153AF5800A45E4F /* TYProgressHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYProgressHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F52AD9D2153AF5800A45E4F /* TYProgressHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYProgressHUDUITests.m; sourceTree = "<group>"; };
+		6F52AD9F2153AF5800A45E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F52AD732153AF5500A45E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F52AD8B2153AF5800A45E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F52AD962153AF5800A45E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F52AD6D2153AF5500A45E4F = {
+			isa = PBXGroup;
+			children = (
+				6F52AD782153AF5500A45E4F /* TYProgressHUD */,
+				6F52AD912153AF5800A45E4F /* TYProgressHUDTests */,
+				6F52AD9C2153AF5800A45E4F /* TYProgressHUDUITests */,
+				6F52AD772153AF5500A45E4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F52AD772153AF5500A45E4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F52AD762153AF5500A45E4F /* TYProgressHUD.app */,
+				6F52AD8E2153AF5800A45E4F /* TYProgressHUDTests.xctest */,
+				6F52AD992153AF5800A45E4F /* TYProgressHUDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F52AD782153AF5500A45E4F /* TYProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6F52AD792153AF5500A45E4F /* AppDelegate.h */,
+				6F52AD7A2153AF5500A45E4F /* AppDelegate.m */,
+				6F52AD7C2153AF5500A45E4F /* ViewController.h */,
+				6F52AD7D2153AF5500A45E4F /* ViewController.m */,
+				6F52AD7F2153AF5500A45E4F /* Main.storyboard */,
+				6F52AD822153AF5800A45E4F /* Assets.xcassets */,
+				6F52AD842153AF5800A45E4F /* LaunchScreen.storyboard */,
+				6F52AD872153AF5800A45E4F /* Info.plist */,
+				6F52AD882153AF5800A45E4F /* main.m */,
+			);
+			path = TYProgressHUD;
+			sourceTree = "<group>";
+		};
+		6F52AD912153AF5800A45E4F /* TYProgressHUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F52AD922153AF5800A45E4F /* TYProgressHUDTests.m */,
+				6F52AD942153AF5800A45E4F /* Info.plist */,
+			);
+			path = TYProgressHUDTests;
+			sourceTree = "<group>";
+		};
+		6F52AD9C2153AF5800A45E4F /* TYProgressHUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F52AD9D2153AF5800A45E4F /* TYProgressHUDUITests.m */,
+				6F52AD9F2153AF5800A45E4F /* Info.plist */,
+			);
+			path = TYProgressHUDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F52AD752153AF5500A45E4F /* TYProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F52ADA22153AF5800A45E4F /* Build configuration list for PBXNativeTarget "TYProgressHUD" */;
+			buildPhases = (
+				6F52AD722153AF5500A45E4F /* Sources */,
+				6F52AD732153AF5500A45E4F /* Frameworks */,
+				6F52AD742153AF5500A45E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYProgressHUD;
+			productName = TYProgressHUD;
+			productReference = 6F52AD762153AF5500A45E4F /* TYProgressHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F52AD8D2153AF5800A45E4F /* TYProgressHUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F52ADA52153AF5800A45E4F /* Build configuration list for PBXNativeTarget "TYProgressHUDTests" */;
+			buildPhases = (
+				6F52AD8A2153AF5800A45E4F /* Sources */,
+				6F52AD8B2153AF5800A45E4F /* Frameworks */,
+				6F52AD8C2153AF5800A45E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F52AD902153AF5800A45E4F /* PBXTargetDependency */,
+			);
+			name = TYProgressHUDTests;
+			productName = TYProgressHUDTests;
+			productReference = 6F52AD8E2153AF5800A45E4F /* TYProgressHUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F52AD982153AF5800A45E4F /* TYProgressHUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F52ADA82153AF5800A45E4F /* Build configuration list for PBXNativeTarget "TYProgressHUDUITests" */;
+			buildPhases = (
+				6F52AD952153AF5800A45E4F /* Sources */,
+				6F52AD962153AF5800A45E4F /* Frameworks */,
+				6F52AD972153AF5800A45E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F52AD9B2153AF5800A45E4F /* PBXTargetDependency */,
+			);
+			name = TYProgressHUDUITests;
+			productName = TYProgressHUDUITests;
+			productReference = 6F52AD992153AF5800A45E4F /* TYProgressHUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F52AD6E2153AF5500A45E4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "海瑞";
+				TargetAttributes = {
+					6F52AD752153AF5500A45E4F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					6F52AD8D2153AF5800A45E4F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6F52AD752153AF5500A45E4F;
+					};
+					6F52AD982153AF5800A45E4F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6F52AD752153AF5500A45E4F;
+					};
+				};
+			};
+			buildConfigurationList = 6F52AD712153AF5500A45E4F /* Build configuration list for PBXProject "TYProgressHUD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F52AD6D2153AF5500A45E4F;
+			productRefGroup = 6F52AD772153AF5500A45E4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F52AD752153AF5500A45E4F /* TYProgressHUD */,
+				6F52AD8D2153AF5800A45E4F /* TYProgressHUDTests */,
+				6F52AD982153AF5800A45E4F /* TYProgressHUDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F52AD742153AF5500A45E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F52AD862153AF5800A45E4F /* LaunchScreen.storyboard in Resources */,
+				6F52AD832153AF5800A45E4F /* Assets.xcassets in Resources */,
+				6F52AD812153AF5500A45E4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F52AD8C2153AF5800A45E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F52AD972153AF5800A45E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F52AD722153AF5500A45E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F52AD7E2153AF5500A45E4F /* ViewController.m in Sources */,
+				6F52AD892153AF5800A45E4F /* main.m in Sources */,
+				6F52AD7B2153AF5500A45E4F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F52AD8A2153AF5800A45E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F52AD932153AF5800A45E4F /* TYProgressHUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F52AD952153AF5800A45E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F52AD9E2153AF5800A45E4F /* TYProgressHUDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F52AD902153AF5800A45E4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F52AD752153AF5500A45E4F /* TYProgressHUD */;
+			targetProxy = 6F52AD8F2153AF5800A45E4F /* PBXContainerItemProxy */;
+		};
+		6F52AD9B2153AF5800A45E4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F52AD752153AF5500A45E4F /* TYProgressHUD */;
+			targetProxy = 6F52AD9A2153AF5800A45E4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F52AD7F2153AF5500A45E4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F52AD802153AF5500A45E4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F52AD842153AF5800A45E4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F52AD852153AF5800A45E4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F52ADA02153AF5800A45E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F52ADA12153AF5800A45E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F52ADA32153AF5800A45E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74LHKYZDT8;
+				INFOPLIST_FILE = TYProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TYProgressHUD.TYProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F52ADA42153AF5800A45E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74LHKYZDT8;
+				INFOPLIST_FILE = TYProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TYProgressHUD.TYProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F52ADA62153AF5800A45E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74LHKYZDT8;
+				INFOPLIST_FILE = TYProgressHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TYProgressHUD.TYProgressHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYProgressHUD.app/TYProgressHUD";
+			};
+			name = Debug;
+		};
+		6F52ADA72153AF5800A45E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74LHKYZDT8;
+				INFOPLIST_FILE = TYProgressHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TYProgressHUD.TYProgressHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYProgressHUD.app/TYProgressHUD";
+			};
+			name = Release;
+		};
+		6F52ADA92153AF5800A45E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74LHKYZDT8;
+				INFOPLIST_FILE = TYProgressHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TYProgressHUD.TYProgressHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYProgressHUD;
+			};
+			name = Debug;
+		};
+		6F52ADAA2153AF5800A45E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74LHKYZDT8;
+				INFOPLIST_FILE = TYProgressHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TYProgressHUD.TYProgressHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYProgressHUD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F52AD712153AF5500A45E4F /* Build configuration list for PBXProject "TYProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F52ADA02153AF5800A45E4F /* Debug */,
+				6F52ADA12153AF5800A45E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F52ADA22153AF5800A45E4F /* Build configuration list for PBXNativeTarget "TYProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F52ADA32153AF5800A45E4F /* Debug */,
+				6F52ADA42153AF5800A45E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F52ADA52153AF5800A45E4F /* Build configuration list for PBXNativeTarget "TYProgressHUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F52ADA62153AF5800A45E4F /* Debug */,
+				6F52ADA72153AF5800A45E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F52ADA82153AF5800A45E4F /* Build configuration list for PBXNativeTarget "TYProgressHUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F52ADA92153AF5800A45E4F /* Debug */,
+				6F52ADAA2153AF5800A45E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F52AD6E2153AF5500A45E4F /* Project object */;
+}
