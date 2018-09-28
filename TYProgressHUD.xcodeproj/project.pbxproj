@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F051EB32154A3E700A65870 /* TYProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F051EB22154A3E700A65870 /* TYProgressHUD.bundle */; };
 		6F52AD7B2153AF5500A45E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52AD7A2153AF5500A45E4F /* AppDelegate.m */; };
 		6F52AD7E2153AF5500A45E4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52AD7D2153AF5500A45E4F /* ViewController.m */; };
 		6F52AD812153AF5500A45E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F52AD7F2153AF5500A45E4F /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		6F52AD892153AF5800A45E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52AD882153AF5800A45E4F /* main.m */; };
 		6F52AD932153AF5800A45E4F /* TYProgressHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52AD922153AF5800A45E4F /* TYProgressHUDTests.m */; };
 		6F52AD9E2153AF5800A45E4F /* TYProgressHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52AD9D2153AF5800A45E4F /* TYProgressHUDUITests.m */; };
+		6F52ADAE2153AF9500A45E4F /* TYProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ADAD2153AF9500A45E4F /* TYProgressHUD.m */; };
+		6F52ADB12153B06500A45E4F /* TYProgressHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ADB02153B06500A45E4F /* TYProgressHUDView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F051EB22154A3E700A65870 /* TYProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TYProgressHUD.bundle; sourceTree = "<group>"; };
 		6F52AD762153AF5500A45E4F /* TYProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F52AD792153AF5500A45E4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F52AD7A2153AF5500A45E4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,10 @@
 		6F52AD992153AF5800A45E4F /* TYProgressHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYProgressHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F52AD9D2153AF5800A45E4F /* TYProgressHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYProgressHUDUITests.m; sourceTree = "<group>"; };
 		6F52AD9F2153AF5800A45E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F52ADAC2153AF9500A45E4F /* TYProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYProgressHUD.h; sourceTree = "<group>"; };
+		6F52ADAD2153AF9500A45E4F /* TYProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYProgressHUD.m; sourceTree = "<group>"; };
+		6F52ADAF2153B06500A45E4F /* TYProgressHUDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYProgressHUDView.h; sourceTree = "<group>"; };
+		6F52ADB02153B06500A45E4F /* TYProgressHUDView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYProgressHUDView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		6F52AD782153AF5500A45E4F /* TYProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
+				6F52ADAB2153AF6100A45E4F /* TYProgressHUD */,
 				6F52AD792153AF5500A45E4F /* AppDelegate.h */,
 				6F52AD7A2153AF5500A45E4F /* AppDelegate.m */,
 				6F52AD7C2153AF5500A45E4F /* ViewController.h */,
@@ -130,6 +139,18 @@
 				6F52AD9F2153AF5800A45E4F /* Info.plist */,
 			);
 			path = TYProgressHUDUITests;
+			sourceTree = "<group>";
+		};
+		6F52ADAB2153AF6100A45E4F /* TYProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6F52ADAC2153AF9500A45E4F /* TYProgressHUD.h */,
+				6F52ADAD2153AF9500A45E4F /* TYProgressHUD.m */,
+				6F52ADAF2153B06500A45E4F /* TYProgressHUDView.h */,
+				6F52ADB02153B06500A45E4F /* TYProgressHUDView.m */,
+				6F051EB22154A3E700A65870 /* TYProgressHUD.bundle */,
+			);
+			path = TYProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +259,7 @@
 				6F52AD862153AF5800A45E4F /* LaunchScreen.storyboard in Resources */,
 				6F52AD832153AF5800A45E4F /* Assets.xcassets in Resources */,
 				6F52AD812153AF5500A45E4F /* Main.storyboard in Resources */,
+				6F051EB32154A3E700A65870 /* TYProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F52ADB12153B06500A45E4F /* TYProgressHUDView.m in Sources */,
 				6F52AD7E2153AF5500A45E4F /* ViewController.m in Sources */,
+				6F52ADAE2153AF9500A45E4F /* TYProgressHUD.m in Sources */,
 				6F52AD892153AF5800A45E4F /* main.m in Sources */,
 				6F52AD7B2153AF5500A45E4F /* AppDelegate.m in Sources */,
 			);
